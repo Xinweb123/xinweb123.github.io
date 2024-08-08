@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+.header .sk{
+    position: absolute;
+    top: 40px;
+    left: 180px;
+    padding-left: 20px;
+    border-left: 1px solid #c81623;
+}
+
+.nav .ul a{
+    float: left;
+    width: 96px;
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    margin-top: 16px;
+    
+}
+.nav .ul a:nth-child(n+4){
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 18px;
+}
+.nav .ul a:last-child::after{
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.nav .ul a:hover{
+    color: red;
+}
+.sk_bd{
+    height: 1840px;
+    margin-bottom: 30px;
+}
+.sk_bd li{
+    float: left;
+    width: 290px;
+    height: 460px;
+    margin-right: 13px;
+
+}
+.sk_bd li:hover{
+    height: 459px;
+    box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.4);
+}
+.sk_bd li:nth-child(4n){
+    width: 291px;
+    margin-right: 0;
+}
+.sk_bd li img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.sk_bd li p{
+    height: 42px;
+    font-weight: 700;
+    color: #333;
+    font: 14px '微软雅黑';
+}
+.sk_bd li .price{
+    width: 290px;
+    height: 33px;
+    margin: 15px 0;
+}
+.sk_bd  li .price .price1{
+    display: inline-block;
+    color: #c81523;
+    font-size: 22px;
+    font-weight: 700;
+}
+.sk_bd  li .price .price2{
+    display: inline-block;
+    text-decoration: line-through;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.sk_bd  li .percent{
+    float: left;
+}
+.sk_bd  li .percent span{
+    color: #666;
+    font: 14px '微软雅黑';
+}
+.sk_bd  li .box{
+    float: left;
+    width: 133px;
+    height: 15px;
+    border-radius: 8px;
+    background: white;
+    margin: 2px 10px 0 10px;
+}
+.sk_bd li .box .box1{
+    width: 100px;
+    height: 15px;
+    background: #c81523;
+    border-radius: 8px 0 0 8px;
+    
+}
+.sk_bd li .count{
+    color: #666;
+    font: 14px '微软雅黑';
+}
