@@ -1,0 +1,101 @@
+.register{
+    height: 525px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.register .title{
+    height: 42px;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.title h2{
+    float: left;
+    height: 42px;
+    color: #666;
+    font: 18px/42px '微软雅黑';
+    font-weight: 400;
+    margin-left: 10px;
+}
+.title p{
+    float: right;
+    height: 42px;
+    color: #666;
+    font: 14px/42px '微软雅黑';
+    margin-right: 10px;
+}
+.register_bd{
+    height: 481px;
+    overflow: hidden;
+}
+.register_bd ul{
+    width: 600px;
+    height: 379px;
+    margin: 0 auto;
+    margin-top: 51px;
+}
+.register_bd ul li{
+    height: 38px;
+}
+.register_bd ul li:nth-child(-n+2){
+    margin-bottom: 20px;
+}
+.register_bd ul li title{
+    display: inline-block;
+    text-align: right;
+    width: 90px;
+    height: 21px;
+    color: #4c4c4c;
+    font-size: 14px;
+}
+.register_bd ul li span{
+    display: inline-block;
+    height: 21px;
+    color: #4c4c4c;
+    font-size: 12px;
+}
+.safe{
+    margin-left: 165px;
+}
+.safe p{
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    color: #b2b2b2;
+    font-size: 12px;
+}
+.safe .box{
+    float: left;
+    width: 36px;
+    height: 16px;
+    color: #fff;
+    font-size: 10px;
+    padding: 0 12px;
+    margin-top: 11px;
+    margin-right: 3px;
+    box-sizing: border-box;
+
+}
+.register_bd ul .agree{
+    height: 38px;
+    margin-top: 43px;
+    margin-left: 86px;
+    overflow: hidden;
+}
+.register_bd ul .agree input{
+    float: left;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+.register_bd ul .agree span{
+    display: inline-block;
+    color: #1ba1e6;
+}
+.register_bd ul li .btn{
+    width: 200px;
+    height: 34px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #c81623;
+    margin: 30px 0px 0px 110px;
+}
